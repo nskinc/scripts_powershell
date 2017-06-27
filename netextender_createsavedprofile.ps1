@@ -6,7 +6,7 @@
 # -Nick Seratt
 
 
-$VPNServer = Read-Host -Prompt 'Enter the VPN host (and :port if necessary. ex: 123.45.67.89:4433)'
+$VPNServer = Read-Host -Prompt 'Enter the VPN Host (and :port if necessary. ex: 123.45.67.89:4433)'
 $VPNDomain = Read-Host -Prompt 'Enter the VPN Domain (ex: LocalDomain)'
 $VPNUser = Read-Host -Prompt 'Enter the VPN Username (optional)'
 
